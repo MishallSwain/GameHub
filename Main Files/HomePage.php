@@ -22,27 +22,28 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active animate"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
             <li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner animate" role="listbox">
+			<div class="redir"> CLICK HERE FOR MORE INFO</div>
             <div class="item active">
-                <a href="./GamePage.php?id=570"><img src="top-images/img1.jpg" alt="#imgid" width="460" height="345"></a>
+                <a href="http://scroch.com/Mishall/GamePage.php?id=570"><img src="img1.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-               <a href="./GamePage.php?id=730"> <img src="top-images/img2.jpg" alt="#imgid" width="460" height="345"></a>
+               <a href="http://scroch.com/Mishall/GamePage.php?id=730"> <img src="img2.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-                <a href="./GamePage.php?id=391220"><img src="top-images/img3.jpg" alt="#imgid" width="460" height="345"></a>
+                <a href="http://scroch.com/Mishall/GamePage.php?id=391220"><img src="img3.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-                <a href="./GamePage.php?id=292030"><img src="top-images/img4.jpg" alt="#imgid" width="460" height="345"></a>
+                <a href="http://scroch.com/Mishall/GamePage.php?id=292030"><img src="img4.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-               <a href="./GamePage.php?id=271590"> <img src="top-images/img5.jpg" alt="#imgid" width="460" height="345"></a>
+               <a href="http://scroch.com/Mishall/GamePage.php?id=271590"> <img src="img5.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -64,27 +65,27 @@
     <div id="myCarouse2" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarouse2" data-slide-to="0" class="active animate"></li>
             <li data-target="#myCarouse2" data-slide-to="1"></li>
             <li data-target="#myCarouse2" data-slide-to="2"></li>
             <li data-target="#myCarouse2" data-slide-to="3"></li>
             <li data-target="#myCarouse2" data-slide-to="4"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner animate" role="listbox">
             <div class="item active">
-                <a href="./GamePage.php?id=403640"><img src="popular-images/img6.jpg" alt="#imgid" width="460" height="345"></a>
+                <a href="http://scroch.com/Mishall/GamePage.php?id=403640"><img src="img6.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-                 <a href="./GamePage.php?id=359550"><img src="popular-images/img7.jpg" alt="#imgid" width="460" height="345"></a>
+                 <a href="http://scroch.com/Mishall/GamePage.php?id=359550"><img src="img7.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-                <a href="./GamePage.php?id=447040"> <img src="popular-images/img8.jpg" alt="#imgid" width="460" height="345"></a>
+                <a href="http://scroch.com/Mishall/GamePage.php?id=447040"> <img src="img8.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-                <a href="./GamePage.php?id=460930"><img src="popular-images/img9.jpg" alt="#imgid" width="460" height="345"></a>
+                <a href="http://scroch.com/Mishall/GamePage.php?id=460930"><img src="img9.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
             <div class="item">
-               <a href="./GamePage.php?id=271590"><img src="top-images/img5.jpg" alt="#imgid" width="460" height="345"></a>
+               <a href="http://scroch.com/Mishall/GamePage.php?id=271590"><img src="img5.jpg" alt="#imgid" width="460" height="345"></a>
             </div>
         </div>
         <a class="left carousel-control" href="#myCarouse2" role="button" data-slide="prev">
@@ -108,24 +109,24 @@
       <div class="carousel slide multi-item-carousel" id="theCarousel">
         <div class="carousel-inner">
           <div class="item active">
-            <div class="col-xs-4"><a href="./GamePage.php?id=264710"><img src="offer-images/img10.jpg" class="img-responsive" ></a>
+            <div class="col-xs-4"><a href="http://scroch.com/Mishall/GamePage.php?id=264710"><img src="img10.jpg" class="img-responsive" ></a>
                 <div class="carousel-caption"><h4>50%off</h4></div>
             </div>
-            <div class="col-xs-4"><a href="./GamePage.php?id=433850"><img src="offer-images/img11.jpg" class="img-responsive" ></a>
+            <div class="col-xs-4"><a href="http://scroch.com/Mishall/GamePage.php?id=433850"><img src="img11.jpg" class="img-responsive" ></a>
                 <div class="carousel-caption"><h4>40%off</h4></div>
             </div>
-            <div class="col-xs-4"><a href="./GamePage.php?id=107410"><img src="offer-images/img12.jpg" class="img-responsive" ></a>
+            <div class="col-xs-4"><a href="http://scroch.com/Mishall/GamePage.php?id=107410"><img src="img12.jpg" class="img-responsive" ></a>
                 <div class="carousel-caption"><h4>50%off</h4></div>
             </div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="./GamePage.php?id=206420"><img src="offer-images/img13.jpg" class="img-responsive" ></a>
+            <div class="col-xs-4"><a href="http://scroch.com/Mishall/GamePage.php?id=206420"><img src="img13.jpg" class="img-responsive" ></a>
                 <div class="carousel-caption"><h4>75%off</h4></div>
             </div>
-            <div class="col-xs-4"><a href="./GamePage.php?id=244210"><img src="offer-images/img14.jpg" class="img-responsive" ></a>
+            <div class="col-xs-4"><a href="http://scroch.com/Mishall/GamePage.php?id=244210"><img src="img14.jpg" class="img-responsive" ></a>
                 <div class="carousel-caption"><h4>50%off</h4></div>
             </div>
-            <div class="col-xs-4"><a href="./GamePage.php?id=435530"><img src="offer-images/img15.jpg" class="img-responsive" ></a>
+            <div class="col-xs-4"><a href="http://scroch.com/Mishall/GamePage.php?id=435530"><img src="img15.jpg" class="img-responsive" ></a>
                 <div class="carousel-caption"><h4>67%off</h4></div>
             </div>
           </div>

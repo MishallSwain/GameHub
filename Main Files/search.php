@@ -1,9 +1,9 @@
 <?php
 	
-$servername ="mysql.hostinger.in";
-$database = "u375838234_dysap";
-$username = "u375838234_zyteq";
-$password = "swagnigga69";
+$servername ="localhost";
+$database = "app";
+$username = "root";
+$password = "mysql";
 
 
 
@@ -92,7 +92,7 @@ if (!$conn) {
 		//$query = mysqli_real_escape_string($conn, $_POST['query']);
 		//$query = mysqli_real_escape_string($query);
 
-		$raw_results = mysqli_query($conn,"SELECT * FROM games WHERE (`name` LIKE '%".$query."%') OR (`appid` LIKE '%".$query."%')") or die(mysqli_error());
+		$raw_results = mysqli_query($conn,"SELECT * FROM apps WHERE (`name` LIKE '%".$query."%') OR (`appid` LIKE '%".$query."%')") or die(mysqli_error());
 		//$raw_results = mysqli_query($conn,"SELECT * FROM app WHERE ('name' LIKE '%.$query.%' )  ") or die(mysqli_error());
 		$i=5;
 		if(mysqli_num_rows($raw_results) > 0){

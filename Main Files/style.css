@@ -357,6 +357,10 @@ ul li{
   width:50%;
   color:white;
 }
+.flag {
+	height:20px;
+	width: 28px;
+}
 /* media queries */
 @media (max-width: 700px) {
   input {
@@ -367,3 +371,58 @@ ul li{
 	padding: 5px;
   }
 }
+@media (max-width:700px) {
+ .stemservice , .csgoregion {
+    width:100%; 
+  }
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.lists {
+	padding:15px;
+}
+.weapons, .wpkills, .wpshots, .wphits {
+	float:left;
+	width:25%;
+	text-align:center;
+}
+.wplists {
+	padding:10px;
+}
+.wpicon {
+	height:30px;
+	width: 38px;
+}
+.redir{
+	display:none;
+}
+
+ .animate:hover{
+	display:block;
+	opacity:0.8;	
+}
+
+/* Profile status */
+.online{
+	color:green;
+}
+.offline{
+	color:white;
+}
+.private{
+	color:red;
+}
+.busy{
+	color:yellow;
+}
+.others{
+	color:blue;
+}
+

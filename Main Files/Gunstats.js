@@ -1119,7 +1119,9 @@ else{
 	
 } 
 
-function fullChart(){
+
+
+ function fullChart(){
     CanvasJS.addColorSet("shades",
                 [
                 "#00FF00",

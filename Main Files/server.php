@@ -18,7 +18,7 @@
 <h1 class="title">Steam Services Status</h1>
 <div id="psa"></div>
 <div class="services-container">
-<div class="services">
+<div class="services" class="steamservice">
 <h2 class="services-title">Steam Services</h2>
 <div class="service">
 <span class="name">Steam Community </span>
@@ -63,83 +63,83 @@
 </div>
 
 
-<div class="services">
+<div class="services" class="csgoregion">
 <h2 class="services-title">CS:GO Regions</h2>
 <div class="service sep">
-<span class="name">EU West </span>
+<span class="name"> <img class="flag" src="euflag.jpg"> EU West </span>
 <span class="status" id="csgo_eu_west">…</span>
 </div>
 <div class="service">
-<span class="name">EU East </span>
+<span class="name"><img class="flag" src="euflag.jpg"> EU East </span>
 <span class="status" id="csgo_eu_east">…</span>
 </div>
 <div class="service">
-<span class="name">EU North </span>
+<span class="name"><img class="flag" src="euflag.jpg"> EU North </span>
 <span class="status" id="csgo_eu_north">…</span>
 </div>
 <div class="service sep">
-<span class="name">US Northwest </span>
+<span class="name"> <img class="flag" src="usaflag.jpg"> US Northwest </span>
 <span class="status" id="csgo_us_northwest">…</span>
 </div>
 <div class="service">
-<span class="name">US Northeast </span>
+<span class="name"><img class="flag" src="usaflag.jpg"> US Northeast </span>
 <span class="status" id="csgo_us_northeast">…</span>
 </div>
 <div class="service">
-<span class="name">US Southwest </span>
+<span class="name"><img class="flag" src="usaflag.jpg"> US Southwest </span>
 <span class="status" id="csgo_us_southwest">…</span>
 </div>
 <div class="service">
-<span class="name">US Southeast </span>
+<span class="name"><img class="flag" src="usaflag.jpg"> US Southeast </span>
 <span class="status" id="csgo_us_southeast">…</span>
 </div>
 <div class="service">
-<span class="name">Peru </span>
+<span class="name"><img class="flag" src="peruflag.jpg"> Peru </span>
 <span class="status" id="csgo_peru">…</span>
 </div>
 <div class="service sep">
-<span class="name">Australia </span>
+<span class="name"><img class="flag" src="ausflag.jpg"> Australia </span>
 <span class="status" id="csgo_australia">…</span>
 </div>
 <div class="service">
-<span class="name">Brazil </span>
+<span class="name"><img class="flag" src="brazilflag.jpg"> Brazil </span>
 <span class="status" id="csgo_brazil">…</span>
 </div>
 <div class="service">
-<span class="name">Chile </span>
+<span class="name"><img class="flag" src="chileflag.jpg"> Chile </span>
 <span class="status" id="csgo_chile">…</span>
 </div>
 <div class="service">
-<span class="name">Emirates </span>
+<span class="name"><img class="flag" src="uaeflag.jpg"> Emirates </span>
 <span class="status" id="csgo_emirates">…</span>
 </div>
 <div class="service">
-<span class="name">India </span>
+<span class="name"><img class="flag" src="indiaflag.jpg"> India </span>
 <span class="status" id="csgo_india">…</span>
 </div>
 <div class="service">
-<span class="name">India East </span>
+<span class="name"><img class="flag" src="indiaflag.jpg"> India East </span>
 <span class="status" id="csgo_india_east">…</span>
 </div>
  
 <div class="service">
-<span class="name">Japan </span>
+<span class="name"><img class="flag" src="japanflag.jpg"> Japan </span>
 <span class="status" id="csgo_japan">…</span>
 </div>
 <div class="service">
-<span class="name">Hong Kong </span>
+<span class="name"><img class="flag" src="hkgflag.jpg"> Hong Kong </span>
 <span class="status" id="csgo_hk">…</span>
 </div>
 <div class="service">
-<span class="name">Singapore </span>
+<span class="name"><img class="flag" src="sgpflag.jpg"> Singapore </span>
 <span class="status" id="csgo_singapore">…</span>
 </div>
 <div class="service">
-<span class="name">South Africa </span>
+<span class="name"><img class="flag" src="saflag.jpg"> South Africa </span>
 <span class="status" id="csgo_southafrica">…</span>
 </div>
 <div class="service">
-<span class="name">Spain </span>
+<span class="name"><img class="flag" src="spflag.jpg"> Spain </span>
 <span class="status" id="csgo_spain">…</span>
 </div>
 </div>
