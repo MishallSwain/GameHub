@@ -1,25 +1,24 @@
 <html>
 <head>
     <title>Game Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="script.js"></script>
-	<script src="gamepage.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+	<script src="js/gamepage.js"></script>
 	<style>
 		body{
-			background-image: url("dota.jpg");
+			background-image: url("images/dota.jpg");
 		}
 		.video{
 			position: absolute;
 			top: 35%;
 			left: 32%;
 		}
-		#full-loader
-		{
+		#full-loader{
 			position: absolute;
 			width: 100vw;
 			height: 100vh;
@@ -29,17 +28,16 @@
 			z-index: 9001;
 		}
 		#loading_img{
-    min-height:100%;
-    min-width:100%;
-    height:auto;
-    width:auto;
-    position:absolute;
-    top:-100%; bottom:-100%;
-    left:-100%; right:-100%;
-    margin:auto;
-}
+			min-height:100%;
+			min-width:100%;
+			height:auto;
+			width:auto;
+			position:absolute;
+			top:-100%; bottom:-100%;
+			left:-100%; right:-100%;
+			margin:auto;
+		}
 	</style>
-
 </head>
 <body>
 	

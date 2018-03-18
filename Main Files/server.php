@@ -1,15 +1,15 @@
 <html>
 <head>
 	<title>Server Status</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="server.css">
+	<link rel="stylesheet" type="text/css" href="css/server.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="server.js"></script>
+	<script src="js/server.js"></script>
 </head>
 <body>
 	<?php include('header.php'); ?>
@@ -66,98 +66,90 @@
 <div class="services" class="csgoregion">
 <h2 class="services-title">CS:GO Regions</h2>
 <div class="service sep">
-<span class="name"> <img class="flag" src="euflag.jpg"> EU West </span>
+<span class="name"> <img class="flag" src="images/server/euflag.jpg"> EU West </span>
 <span class="status" id="csgo_eu_west">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="euflag.jpg"> EU East </span>
+<span class="name"><img class="flag" src="images/server/euflag.jpg"> EU East </span>
 <span class="status" id="csgo_eu_east">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="euflag.jpg"> EU North </span>
+<span class="name"><img class="flag" src="images/server/euflag.jpg"> EU North </span>
 <span class="status" id="csgo_eu_north">…</span>
 </div>
 <div class="service sep">
-<span class="name"> <img class="flag" src="usaflag.jpg"> US Northwest </span>
+<span class="name"> <img class="flag" src="images/server/usaflag.jpg"> US Northwest </span>
 <span class="status" id="csgo_us_northwest">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="usaflag.jpg"> US Northeast </span>
+<span class="name"><img class="flag" src="images/server/usaflag.jpg"> US Northeast </span>
 <span class="status" id="csgo_us_northeast">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="usaflag.jpg"> US Southwest </span>
+<span class="name"><img class="flag" src="images/server/usaflag.jpg"> US Southwest </span>
 <span class="status" id="csgo_us_southwest">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="usaflag.jpg"> US Southeast </span>
+<span class="name"><img class="flag" src="images/server/usaflag.jpg"> US Southeast </span>
 <span class="status" id="csgo_us_southeast">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="peruflag.jpg"> Peru </span>
+<span class="name"><img class="flag" src="images/server/peruflag.jpg"> Peru </span>
 <span class="status" id="csgo_peru">…</span>
 </div>
 <div class="service sep">
-<span class="name"><img class="flag" src="ausflag.jpg"> Australia </span>
+<span class="name"><img class="flag" src="images/server/ausflag.jpg"> Australia </span>
 <span class="status" id="csgo_australia">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="brazilflag.jpg"> Brazil </span>
+<span class="name"><img class="flag" src="images/server/brazilflag.jpg"> Brazil </span>
 <span class="status" id="csgo_brazil">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="chileflag.jpg"> Chile </span>
+<span class="name"><img class="flag" src="images/server/chileflag.jpg"> Chile </span>
 <span class="status" id="csgo_chile">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="uaeflag.jpg"> Emirates </span>
+<span class="name"><img class="flag" src="images/server/uaeflag.jpg"> Emirates </span>
 <span class="status" id="csgo_emirates">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="indiaflag.jpg"> India </span>
+<span class="name"><img class="flag" src="images/server/indiaflag.jpg"> India </span>
 <span class="status" id="csgo_india">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="indiaflag.jpg"> India East </span>
+<span class="name"><img class="flag" src="images/server/indiaflag.jpg"> India East </span>
 <span class="status" id="csgo_india_east">…</span>
 </div>
  
 <div class="service">
-<span class="name"><img class="flag" src="japanflag.jpg"> Japan </span>
+<span class="name"><img class="flag" src="images/server/japanflag.jpg"> Japan </span>
 <span class="status" id="csgo_japan">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="hkgflag.jpg"> Hong Kong </span>
+<span class="name"><img class="flag" src="images/server/hkgflag.jpg"> Hong Kong </span>
 <span class="status" id="csgo_hk">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="sgpflag.jpg"> Singapore </span>
+<span class="name"><img class="flag" src="images/server/sgpflag.jpg"> Singapore </span>
 <span class="status" id="csgo_singapore">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="saflag.jpg"> South Africa </span>
+<span class="name"><img class="flag" src="images/server/saflag.jpg"> South Africa </span>
 <span class="status" id="csgo_southafrica">…</span>
 </div>
 <div class="service">
-<span class="name"><img class="flag" src="spflag.jpg"> Spain </span>
+<span class="name"><img class="flag" src="images/server/spflag.jpg"> Spain </span>
 <span class="status" id="csgo_spain">…</span>
 </div>
 </div>
 </div>
 </div>
-<!--<div class="footer">
-<div class="container">
-<div class="pull-right">
-<a target="_blank" href="https://twitter.com/SteamStatus" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @SteamStatus</a>
-</div>
-Refreshing in <span id="js-refresh">&infin;</span> seconds
-</div>
-</div>-->
 <div class="footer-oreos">
 <div class="container">
 
-<p>A <a target="_blank" href="#">GameHub</a> project</p>
-<p>Developed by GameHub</p>
+<p>A <a target="_blank" href="#">GameStat</a> project</p>
+<p>Developed by GameStat</p>
 </div>
 </div>
 

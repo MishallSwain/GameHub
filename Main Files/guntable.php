@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Server Status</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -9,7 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="server.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="gundata.js"></script>
+	<script src="js/gundata.js"></script>
 </head>
 <body>
 <?php include('header.php'); ?>
@@ -44,87 +44,91 @@
 <div class="container">
 <div class="weapons">
 <div class="wplists">
-<img class="wpicon" src="ak.png" alt="ak">
+<img class="wpicon" src="images/guns/ak.png" alt="ak">
 </div>
 <div class="wplists">
-<img class="wpicon" src="m4a4.png" alt="m4a4">
+<img class="wpicon" src="images/guns/m4a4.png" alt="m4a4">
 </div>
 <div class="wplists">
-<img class="wpicon" src="awp.png" alt="awp">
+<img class="wpicon" src="images/guns/awp.png" alt="awp">
 </div>
 <div class="wplists">
-<img class="wpicon" src="aug.png" alt="aug">
+<img class="wpicon" src="images/guns/aug.png" alt="aug">
 </div>
 <div class="wplists">
-<img class="wpicon" src="sg.png" alt="sg553">
+<img class="wpicon" src="images/guns/sg.png" alt="sg553">
 </div>
 <div class="wplists">
-<img class="wpicon" src="famas.png" alt="famas">
+<img class="wpicon" src="images/guns/famas.png" alt="famas">
 </div>
 <div class="wplists">
-<img class="wpicon" src="galil.png" alt="galil">
+<img class="wpicon" src="images/guns/galil.png" alt="galil">
 </div>
 <div class="wplists">
-<img class="wpicon" src="scar.png" alt="scar">
+<img class="wpicon" src="images/guns/scar.png" alt="scar">
 </div>
 <div class="wplists">
-<img class="wpicon" src="g3.png" alt="g3sg1">
+<img class="wpicon" src="images/guns/g3.png" alt="g3sg1">
 </div>
 <div class="wplists">
-<img class="wpicon" src="ssg08.png" alt="ssg08">
+<img class="wpicon" src="images/guns/ssg08.png" alt="ssg08">
 </div>
 <div class="wplists">
-<img class="wpicon" src="mac10.png" alt="mac-10">
-</div><div class="wplists">
-<img class="wpicon" src="mp7.png" alt="mp7">
+<img class="wpicon" src="images/guns/mac10.png" alt="mac-10">
 </div>
 <div class="wplists">
-<img class="wpicon" src="p90.png" alt="p90">
+<img class="wpicon" src="images/guns/mp7.png" alt="mp7">
 </div>
 <div class="wplists">
-<img class="wpicon" src="ump.png" alt="ump-45">
-</div><div class="wplists">
-<img class="wpicon" src="mp9.png" alt="mp9">
-</div><div class="wplists">
-<img class="wpicon" src="bizon.png" alt="pp-bizon">
-</div><div class="wplists">
-<img class="wpicon" src="negev.png" alt="negev">
+<img class="wpicon" src="images/guns/p90.png" alt="p90">
 </div>
 <div class="wplists">
-<img class="wpicon" src="m249.png" alt="m249">
+<img class="wpicon" src="images/guns/ump.png" alt="ump-45">
 </div>
 <div class="wplists">
-<img class="wpicon" src="usp.png" alt="usp">
+<img class="wpicon" src="images/guns/mp9.png" alt="mp9">
 </div>
 <div class="wplists">
-<img class="wpicon" src="deagle.png" alt="deagle">
+<img class="wpicon" src="images/guns/bizon.png" alt="pp-bizon">
 </div>
 <div class="wplists">
-<img class="wpicon" src="tec9.png" alt="tec-9">
+<img class="wpicon" src="images/guns/negev.png" alt="negev">
 </div>
 <div class="wplists">
-<img class="wpicon" src="57.png" alt="fiveseven">
+<img class="wpicon" src="images/guns/m249.png" alt="m249">
 </div>
 <div class="wplists">
-<img class="wpicon" src="p250.png" alt="p250">
+<img class="wpicon" src="images/guns/usp.png" alt="usp">
 </div>
 <div class="wplists">
-<img class="wpicon" src="dual.png" alt="dual berettas">
+<img class="wpicon" src="images/guns/deagle.png" alt="deagle">
 </div>
 <div class="wplists">
-<img class="wpicon" src="glock.png" alt="glock18">
+<img class="wpicon" src="images/guns/tec9.png" alt="tec-9">
 </div>
 <div class="wplists">
-<img class="wpicon" src="nova.png" alt="nova">
+<img class="wpicon" src="images/guns/57.png" alt="fiveseven">
 </div>
 <div class="wplists">
-<img class="wpicon" src="xm.png" alt="xm1014">
+<img class="wpicon" src="images/guns/p250.png" alt="p250">
 </div>
 <div class="wplists">
-<img class="wpicon" src="mag7.png" alt="mag-7">
+<img class="wpicon" src="images/guns/dual.png" alt="dual berettas">
 </div>
 <div class="wplists">
-<img class="wpicon" src="sawed.png" alt="sawed off">
+<img class="wpicon" src="images/guns/glock.png" alt="glock18">
+</div>
+<div class="wplists">
+<img class="wpicon" src="images/guns/nova.png" alt="nova">
+</div>
+<div class="wplists">
+<img class="wpicon" src="images/guns/xm.png" alt="xm1014">
+</div>
+<div class="wplists">
+<img class="wpicon" src="images/guns/mag7.png" alt="mag-7">
+</div>
+<div class="wplists">
+<img class="wpicon" src="images/guns/sawed.png" alt="sawed off">
 </div>
 </div>
 
@@ -405,5 +409,3 @@
 
 </body>
 </html>
-
-CF287EF9D049517AD75478BD1F56D778

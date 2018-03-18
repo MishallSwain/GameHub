@@ -15,10 +15,10 @@ if(isset($_SESSION['steamid']))
 <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-autocomplete/1.0.7/jquery.auto-complete.js"></script>
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />-->
-<script type="text/javascript" src="jquery-1.10.2.js"></script>
-<script type="text/javascript" src="jquery.auto-complete.js"></script>
-<link rel="stylesheet" type="text/css" href="jquery-ui.css">
-<script type="text/javascript" src="jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/jquery.auto-complete.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<script type="text/javascript" src="js/jquery-ui.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-inverse">

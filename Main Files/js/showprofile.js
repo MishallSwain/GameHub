@@ -14,15 +14,10 @@ function getCookie(cname) {
     return "";
 }
  $(function (){
-	
-
 	var userid = getCookie("user");
 	
-	if(!!getCookie("user")}{	
-			url = "https://gamestat.in/profile.php?id=" + userid ;
+	if(!!getCookie("user")){	
+			url = "./profile.php?id=" + userid ;
 			location.replace(url);
-		
 	}
-
-		
 });
