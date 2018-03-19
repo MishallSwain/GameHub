@@ -8,18 +8,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<style>
 		body{
-			background-color:black;
+			background-color:rgba(0,0,0,0.9);
 			
 		}
 		input[type="text"] 
 		{
 			text-align:center;
+			margin-left:10px;
 			width: 100%;
 			height: 45px;
 			border: 1px solid #CCC;
 		}
 		.btc{
 			height:45px;
+			margin-right:10px;
 		}
 		.input-group{
 			

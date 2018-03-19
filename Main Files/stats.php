@@ -9,9 +9,15 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.4/js.cookie.min.js"> </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<<<<<<< Updated upstream
 	<script type="text/javascript" src="js/Gstat.js"></script>
 	<script type="text/javascript" src="js/Mapstat.js"></script>
 	<script type="text/javascript" src="js/Gunstats.js"></script>	
+=======
+	<script type="text/javascript" src="Gstat2.js"></script>
+	<script type="text/javascript" src="Mapstat2.js"></script>
+	<script type="text/javascript" src="Gunstats2.js"></script>	
+>>>>>>> Stashed changes
 	<style>
 		body{
 			background-image: url("images/dota.jpg");
@@ -19,6 +25,44 @@
 		chart{
 			text-align:center;
 		}
+		#favv{
+			background-color: rgba(0,0,0,0.6);
+			
+		}
+		.opac{
+			background-color:rgba(55,55,55,0);
+		}
+		.favgunmap{
+			background-color: rgba(0,0,0,0.6);
+			width:450px;
+			height:500px;
+			border-size:1px;
+			border:solid;
+			border-color:white;
+		}
+		.kdbox{
+			width:700px;
+			height:500px;
+		}
+		.fav{
+			margin:100px;
+			width:100%;
+			
+		}
+		.favgun{
+			display:inline-block;
+			height:300px ;
+			width:400px;
+		}
+		.kdtext{
+			top:42%;
+		}
+		.statkd{
+			display:inline-block;
+			width:100%;
+			height:100%;
+		}
+		
 	</style>
 
 </head>
@@ -26,6 +70,7 @@
 	
     <?php include('header.php'); ?>
 		
+<<<<<<< Updated upstream
 	<div class="input-form">
 		<div class="entry-head">
 		  <h4>Enter Steam Id to View Data</h4>
@@ -145,6 +190,64 @@
 								</div>
 							</div>
 						</div>
+=======
+	<div id="hidethisshit" class="input-form">
+	<div class="entry-head">
+	  <h4>Enter Steam Id to View Data</h4>
+	</div>
+	<input type="text" id="getCustom" placeholder="Custom ID"/><br />
+	<hr width="45%" align="left"><h5 id="head">OR</h5><hr width="45%" align="right">
+	<input type="text" id="getId64" placeholder="SteamID"/><br />
+	<button  id="getData">View Stats</button>
+	</div>
+
+    <div id="favv" class="container fav">
+		<div class="row">
+			<div class="col-sm-3 favgunmap">
+				<div class="favgun">
+					<img id="favgunimg" style=" position:absolute;" height="300px" width="400px" src="">	
+				</div>
+				<div>
+					<p id="favgunname" style="text-align:center; color:white; font-size:3em;" > AK47 </p>
+					<p style="text-align:center; color:white; font-size:2.5em;" > Favorite Weapon</p>
+					<p id="favgunkill" style=" margin-left:30%;  color:white; font-size:2em;" >  <img width="30px" height="30px" src="kills.png"> Kills</p> 
+				</div>
+			</div>
+			<div class=" col-sm-5 kdbox">
+			<div style="min-height:400px; min-width:700px">
+				<p id="favkd" class="text kdtext"></p>
+				<div id="statkd" class="chart"></div>
+			</div>
+			<div id="accuracy" style=" margin-left:35%; margin-top:10px; color:white; font-size:2em; min-height:100px; min-width:300px" >
+				 <img style="margin-left:10%;" width="40px" height="40px" src="headshot.png"> 
+			</div>
+			</div>
+			<div class=" col-sm-3 favgunmap">
+				<div class="favgun">
+					<img style=" position:absolute; margin-left:50px; margin-top:10px;" height="300px" width="300px" src="dust2.png">	
+				</div>
+				<div >
+					<p id="favmapname" style="text-align:center; color:white; font-size:3em;" > de_dust2 </p>
+					<p style="text-align:center; color:white; font-size:2.5em;" > Favorite Map</p>
+					<p id="favmapwins" style=" margin-left:30%;  color:white; font-size:2em;" > <img width="30px" height="30px" src="wins.png"> wins </p> 
+				</div>
+			</div>
+		</div>
+	</div>
+
+      <div class="col-md-12 about">
+          <div class="pad-bg">  
+           <h3 class="about-header">Detailed Stats</h3>
+		   
+		   <ul class="nav nav-tabs" id="tab">
+			<li ><a data-toggle="tab" href="#windows">General Stats</a></li>
+			<li><a data-toggle="tab" href="#mac">Weapons Stats</a></li>
+			<li><a data-toggle="tab" href="#linux">Map Stats</a></li>
+		   </ul>
+
+		<div class="tab-content opac">
+		<div id="windows" class="tab-pane fade">
+>>>>>>> Stashed changes
 			
 						<div class="row">
 							<div class="col-md-6">
@@ -162,6 +265,7 @@
 						</div>
 					</div>
 		
+<<<<<<< Updated upstream
 		
 				</div>
 				<div id="mac" class="tab-pane fade"><ul>
@@ -171,6 +275,17 @@
 								<div id="gunKills" class="chart"></div>
 							</div>
 						</div>
+=======
+		</div>
+		<div id="mac" class="tab-pane fade"><ul>
+         
+		 <div class="container">
+  <div class="row">
+    <div class="col-md-12" style="width:100%;">
+      <div id="gunKills" class="chart"></div>
+    </div>
+  </div>
+>>>>>>> Stashed changes
 	
 						<div class="row">
 							<div class="col-md-6">
